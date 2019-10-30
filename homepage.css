@@ -1,14 +1,16 @@
+/* HEADER */
+
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
+    background-color: #447741;
+    padding: 10px 10px;
   }
   
   /* Style the header links */
   .header a {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -19,7 +21,7 @@
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
   .header a.logo {
-    font-size: 25px;
+    /* font-size: 25px; */
     font-weight: bold;
   }
   
@@ -40,6 +42,10 @@
     float: right;
   }
   
+  .header-left {
+    float: left;
+  }
+  
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   @media screen and (max-width: 500px) {
     .header a {
@@ -48,6 +54,9 @@
       text-align: left;
     }
     .header-right {
+      float: none;
+    }
+    .header-left {
       float: none;
     }
   }
