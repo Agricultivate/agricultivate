@@ -27,8 +27,14 @@
             <p>Please fill in this form to create an account.</p>
             <hr>
 
-            <label for="name"><b>Name</b></label>
-            <input type="text" placeholder="Enter Name" name="name" required><br>
+            <label for="firstname"><b>First Name</b></label>
+            <input type="text" placeholder="Enter First Name" name="name" required><br>
+
+            <label for="middlename"><b>Middle Name</b></label>
+            <input type="text" placeholder="Enter Middle Name" name="name" required><br>
+
+            <label for="lastname"><b>Last Name</b></label>
+            <input type="text" placeholder="Enter Last Name" name="name" required><br>
                 
             <label for="email"><b>Birthdate</b></label>
             <input type="date" name="email" required><br><br>
