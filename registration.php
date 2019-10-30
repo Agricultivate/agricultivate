@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="registration_css.css" />
 </head>
 <body>
-    <form action="action_page.php">
 
-        <div class="header">
+    <div class="header">
         <!-- <a href="#default" class="logo">  -->
             <img src="img/agrilogo.png" width="65" height="50">
         <!-- </a> -->
@@ -19,8 +18,9 @@
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
         </div>
-        </div>
+    </div>
 
+    <form action="action_page.php">
         <div class="container">
 
             <h1>Register</h1>
