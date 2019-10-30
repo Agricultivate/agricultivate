@@ -26,6 +26,6 @@
         } else {
             echo "0 results";
         }
-        $conn->close();
+        mysqli_close($conn);
     }
 ?>

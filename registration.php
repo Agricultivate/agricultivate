@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <form action="action_page.php">
+    <form action="signup_action.php" method="post">
         <div class="container">
 
             <h1>Register</h1>
@@ -28,16 +28,16 @@
             <hr>
 
             <label for="firstname"><b>First Name</b></label>
-            <input type="text" placeholder="Enter First Name" name="name" required><br>
+            <input type="text" placeholder="Enter First Name" name="firstname" required><br>
 
             <label for="middlename"><b>Middle Name</b></label>
-            <input type="text" placeholder="Enter Middle Name" name="name" required><br>
+            <input type="text" placeholder="Enter Middle Name" name="middlename" required><br>
 
             <label for="lastname"><b>Last Name</b></label>
-            <input type="text" placeholder="Enter Last Name" name="name" required><br>
+            <input type="text" placeholder="Enter Last Name" name="surname" required><br>
                 
-            <label for="email"><b>Birthdate</b></label>
-            <input type="date" name="email" required><br><br>
+            <label for="email"><b>Email</b></label>
+            <input type="text" name="email" required><br><br>
 
             <label for="sex"><b>Sex</b></label><br>
             <input type="radio" name="gender" value="male"> Male<br>
@@ -54,7 +54,7 @@
             <hr>
         
             <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-            <button type="submit" class="registerbtn">Register</button>
+            <button type="submit" class="registerbtn" name="submit-register">Register</button>
         </div>
       
         <div class="container signin">
