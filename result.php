@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title></title>
-        <link rel="stylesheet" href="result_css.css" />
+        <link rel="stylesheet" href="stylesheet/result.css" />
     </head>
 
     <body>
@@ -24,7 +24,7 @@
             <img src = "img/lot.jpg" width="850px" height="380px">
         </div>
 
-        <div id="con_user"> 
+        <div id="contact-info"> 
             <center> <h3> Contact Information </h3> </center>
             
             <div id="use_box">
@@ -33,7 +33,6 @@
                 <p> Name: </p>
                 <p> Mobile Number: </p>
                 <p> Name: </p>
-                <p> Mobile Number: </p>
                 <p> Mobile Number: </p>
                 <center><input type = "submit" id="contact_button" name = "Contact" value = "Contact"> <center>
             </div>

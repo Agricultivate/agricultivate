@@ -1,3 +1,7 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* HEADER */
 
 /* Style the header with a grey background and some padding */
@@ -40,6 +44,7 @@
   /* Float the link section to the right */
   .header-right {
     float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -54,25 +59,29 @@
     }
   }
 
-
 #container {
-    float: left;
-    width: 850px;
-    height: 380px;
-    margin-top: 45px;
-    margin-left: 60px;
-    /* border: 1px solid gray;  */
-    border-radius: 5px;
+  float: left;
+  width: 850px;
+  height: 380px;
+  margin-top: 45px;
+  margin-left: 60px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
   
-#con_user {
+#contact-info{
     float: right;
-    width: 300px;
+    width: 340px;
     height: 380px;
     margin-top: 45px;
-    margin-right: 40px;
-    border: 1px solid gray; 
+    margin-right: 20px;
     border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contact-info h3 {
+  color: #447741;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #use_box {
@@ -89,6 +98,7 @@
     width: 80%;
     opacity: 0.9;
     border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #description {
@@ -104,6 +114,7 @@
 #descrp {
   color:white; 
   margin-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #descrp_con1 {
