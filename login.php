@@ -26,12 +26,6 @@
     }
 </style>
 <body>
-    <div class="login-header" style="height: 65px">
-        <div style="padding: 20px; color: white; font-weight: bold; float: right">
-            <a>regismich11@gmail.com |</a>
-            <a href="#">Logout</a>
-        </div>
-    </div>
     <div class="header">
         <div class="header-content">
             <div style="float: left; padding: 20px;" >
@@ -43,10 +37,10 @@
                 <a href="login.php">
                     <h3>Login</h3>
                 </a>
-                <a >
-                    <h3>|</h3>
-                </a>
-                <a href="register.php">
+                <a><h3>
+                |
+                </h3></a>
+                <a href="registration.php">
                     <h3>Register</h3>
                 </a>
             </div>
@@ -59,7 +53,7 @@
         </div>
 
         <div class="login-form">
-            <form action="/ImpactHackathon/verifylogin.php" method="post">
+            <form action="/agricultivate/verifylogin.php" method="post">
                 <p class=login-text>Login</p>
                 <input type="text" placeholder="Username" name="username-login">
                 <input type="password" placeholder="Pasword" name="password-login">

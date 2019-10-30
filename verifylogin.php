@@ -1,28 +1,33 @@
 <?php
+    session_start();
     if(isset($_POST['submit-login'])) {
-        $servername = "locahost";
+        $servername = "127.0.0.1";
         $username = "root";
         $password = "";
         $dbname = "agricultivate";
 
         // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-        // Check connection
-        if ($conn->connect_error) {
-            die("Connection failed: " . $conn->connect_error);
+        $conn = mysqli_connect($servername, $username, $password, $dbname);
+        if(!$conn) {
+            die("Database connection failed: " . mysqli_connect_error() . 
+            " (" . mysqli_connect_errno() . ")");
         }
 
-        $sql = "SELECT * FROM login";
+        $sql = "SELECT username, password FROM login";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
-                echo "Success";
+                if($row['username'] == $_POST['username-login'] 
+                && $row['password'] == $_POST['password-login']) {
+                    header("location: homepage.php?login=successful");
+                    $_SESSION['user-logged-in'] = true;
+                }
             }
         } else {
             echo "0 results";
         }
-        $conn->close();
+        mysqli_close($conn);
     }
 ?>
