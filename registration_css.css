@@ -10,7 +10,7 @@
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -21,7 +21,7 @@
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
-  font-size: 25px;
+  /* font-size: 25px; */
   font-weight: bold;
 }
 
@@ -42,6 +42,10 @@
   float: right;
 }
 
+.header-left {
+  float: left;
+}
+
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
   .header a {
@@ -52,6 +56,9 @@
   .header-right {
     float: none;
   }
+  .header-left {
+    float: none;
+  }
 }
 
 /* CONTENT */
@@ -60,7 +67,12 @@
 
 /* Add padding to containers */
 .container {
-  padding: 16px;
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
+  border: 2px solid #447741;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /* Full-width input fields */
