@@ -11,7 +11,7 @@
     <form action="action_page.php">
 
         <div class="header">
-        <a href="#default" class="logo">CompanyLogo</a>
+        <a href="#default" class="logo"><img id="img_logo" src="img/agricultivate.png" /></a>
         <div class="header-right">
             <a class="active" href="#home">Home</a>
             <a href="#contact">Contact</a>
