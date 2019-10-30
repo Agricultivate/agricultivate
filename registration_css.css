@@ -67,7 +67,12 @@
 
 /* Add padding to containers */
 .container {
-  padding: 16px;
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
+  border: 2px solid #447741;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /* Full-width input fields */
