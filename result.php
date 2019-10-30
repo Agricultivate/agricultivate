@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title></title>
         <link rel="stylesheet" href="stylesheet/result.css" />
+        <link rel="stylesheet" href="stylesheet/header.css" />
     </head>
 
     <body>
@@ -28,11 +29,11 @@
             <center> <h3> Contact Information </h3> </center>
             
             <div id="use_box">
-                <p> Name: </p>
-                <p> Mobile Number: </p>
-                <p> Name: </p>
-                <p> Mobile Number: </p>
-                <p> Name: </p>
+                <p> Owner: </p>
+                <p> Land Area: </p>
+                <p> Location: </p>
+                <p> Amount: </p>
+                <p> Contact: </p>
                 <p> Mobile Number: </p>
                 <center><input type = "submit" id="contact_button" name = "Contact" value = "Contact"> <center>
             </div>

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Registration</title>
     <link rel="stylesheet" href="registration_css.css" />
+    <link rel="stylesheet" href="stylesheet/header.css" />
 </head>
 <body>
 
