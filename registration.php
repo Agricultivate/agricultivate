@@ -9,16 +9,24 @@
 </head>
 <body>
     <form action="action_page.php">
+
+        <div class="header">
+        <a href="#default" class="logo">CompanyLogo</a>
+        <div class="header-right">
+            <a class="active" href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        </div>
+
         <div class="container">
+
             <h1>Register</h1>
             <p>Please fill in this form to create an account.</p>
             <hr>
 
             <label for="name"><b>Name</b></label>
             <input type="text" placeholder="Enter Name" name="name" required><br>
-
-            <label for="address"><b>Address</b></label>
-            <input type="text" placeholder="Enter Adress" name="address" required><br>
                 
             <label for="email"><b>Birthdate</b></label>
             <input type="date" name="email" required><br><br>
@@ -26,6 +34,9 @@
             <label for="sex"><b>Sex</b></label><br>
             <input type="radio" name="gender" value="male"> Male<br>
             <input type="radio" name="gender" value="female"> Female<br><br>
+
+            <label for="address"><b>Address</b></label>
+            <input type="text" placeholder="Enter Adress" name="address" required><br>
         
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
