@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="header">
-        <a href="#default" class="logo">CompanyLogo</a>
+        <!-- <a href="#default" class="logo">  -->
+            <img src="img/agrilogo.png" width="65" height="50">
+        <!-- </a> -->
         <div class="header-right">
             <a class="active" href="#home">Home</a>
             <a href="#contact">Contact</a>
