@@ -1,4 +1,5 @@
 <?php
+    session_start();
     if(isset($_POST['submit-register'])) {
         $servername = "127.0.0.1";
         $username = "root";
@@ -45,7 +46,8 @@
          
          // Checks if successfull
          if(mysqli_query($conn, $query)) {
-             header("location: login.php?registration=successful");
+             header("location: homepage.php?registration=successful");
+             $_SESSION['user-logged-in'] = true;
          } else {
              echo "Registration Failed!" . mysqli_error($conn);
          }

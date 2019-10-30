@@ -4,6 +4,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-image: url("home_land.jpg");
+    background-size: 100%;
+}
+
+
 .header {
     background-color: #447741;
     width: '100%';
@@ -22,4 +28,14 @@
 .header-content {
     width: '100%';
     height: 70px;
+}
+
+.login-header {
+    background-color: black;
+    width: '100%';
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-header-content {
+    height: 50px;
 }

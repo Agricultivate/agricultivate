@@ -26,12 +26,6 @@
     }
 </style>
 <body>
-    <div class="login-header" style="height: 65px">
-        <div style="padding: 20px; color: white; font-weight: bold; float: right">
-            <a>regismich11@gmail.com |</a>
-            <a href="#">Logout</a>
-        </div>
-    </div>
     <div class="header">
         <div class="header-content">
             <div style="float: left; padding: 20px;" >

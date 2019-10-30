@@ -1,4 +1,5 @@
 <?php
+    session_start();
     if(isset($_POST['submit-login'])) {
         $servername = "127.0.0.1";
         $username = "root";
@@ -12,7 +13,7 @@
             " (" . mysqli_connect_errno() . ")");
         }
 
-        $sql = "SELECT * FROM login";
+        $sql = "SELECT username, password FROM login";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -20,7 +21,8 @@
             while($row = $result->fetch_assoc()) {
                 if($row['username'] == $_POST['username-login'] 
                 && $row['password'] == $_POST['password-login']) {
-                    echo "Login Success!";
+                    header("location: homepage.php?login=successful");
+                    $_SESSION['user-logged-in'] = true;
                 }
             }
         } else {
