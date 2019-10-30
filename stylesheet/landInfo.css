@@ -3,7 +3,8 @@
   }
 
 #landInfo_box {
-    border: 1px solid black;
+    border: 1px solid #447741;
+    border-radius: 5px;
     width: 1250px;
     height: 500px;
     margin: 20px 50px 20px 50px;
